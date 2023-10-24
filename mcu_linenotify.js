@@ -12,7 +12,7 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("mcu-line-notify", McuLineNotifyNode, {
+    RED.nodes.registerType("mcu_linenotify", McuLineNotifyNode, {
         credentials: {
             AccessToken: {type:"password"}
         }

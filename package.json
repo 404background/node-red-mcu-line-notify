@@ -1,11 +1,11 @@
 {
-	"name": "mcu-line-notify",
+	"name": "mcu_linenotify",
 	"version": "1.0.0",
 	"description": "example",
 	"license": "UNLICENSED",
 	"node-red" : {
 		"nodes": {
-			"mcu-line-notify": "mcu-line-notify.js"
+			"mcu_linenotify": "mcu_linenotify.js"
 		}
 	}
 }

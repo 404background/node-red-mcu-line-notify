@@ -1,6 +1,6 @@
 {
 	"modules": {
-		"*": "./mcu-line-notify"
+		"*": "./mcu_linenotify"
 	},
-	"preload": "mcu-line-notify"
+	"preload": "mcu_linenotify"
 }
