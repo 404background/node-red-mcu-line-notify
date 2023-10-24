@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    function McuLineNotifyNode(config) {
+    function mcu_linenotify(config) {
         var node = this;
         RED.nodes.createNode(this,config);
         let LINE_TOKEN = this.AccessToken;
@@ -11,5 +11,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("mcu_linenotify", McuLineNotifyNode);
+    RED.nodes.registerType("mcu_linenotify", mcu_linenotify);
 }
