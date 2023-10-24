@@ -1,0 +1,34 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mcu-line-notify',{
+        category: 'MCU',
+        color: '#a2aaff',
+        defaults: {
+            name: {value:""}
+        },
+        credentials: {
+            AccessToken: { type: "password", required: true }
+        },
+        inputs:1,
+        outputs:1,
+        icon: "comment.png",
+        align: "right",
+        label: function() {
+            return this.name||"mcu-line-notify";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="mcu-line-notify">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-AccessToken"><i class="fa fa-key"></i> AccessToken</label>
+        <input type="password" id="node-input-AccessToken" placeholder="LINE Notify AccessToken">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="mcu-line-notify">
+    <p>LINE Notify for Node-RED MCU</p>
+</script>

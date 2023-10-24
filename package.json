@@ -1,0 +1,12 @@
+{
+	"name": "mcu-line-notify",
+	"version": "1.0.0",
+	"description": "example",
+	"license": "UNLICENSED",
+	"node-red" : {
+		"nodes": {
+			"mcu-line-notify": "mcu-line-notify.js"
+		}
+	}
+}
+ 
