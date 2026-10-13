@@ -1,4 +1,11 @@
 # node-red-mcu-line-notify
+
+> [!WARNING]
+> LINE Notify は 2025年3月31日にサービスを終了したため、このノードは動作しません。
+> Node-RED MCU のノードの事例として残し、リポジトリはアーカイブしています。
+>
+> LINE Notify ended on March 31, 2025, so this node no longer works. The repository is archived and kept as an example of a Node-RED MCU node.
+
 ## OverView
 Node-RED MCU pluginに追加できる、LINE Notifyのノードです。
 
@@ -42,3 +49,6 @@ Node-RED「はじめてのノード開発」：
 https://nodered.jp/docs/creating-nodes/first-node  
 LINE Notify API Document：
 https://notify-bot.line.me/doc/ja/  
+
+## License
+[Apache License 2.0](LICENSE)
